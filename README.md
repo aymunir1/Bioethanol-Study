@@ -15,7 +15,7 @@ Evaluates substrates potential for **bioethanol production**.
 
 🧪 **Correlation Heatmap for Temperature and pH Optimization** [R Script](https://github.com/aymunir1/Bioethanol-Study/blob/main/Correlation%20and%20Heatmap%20(Temperature%20%26%20pH).R)
 
-This section performs a **correlation analysis** among key fermentation variables —  
+This section performs correlation analysis among key fermentation variables —  
 including *temperature, pH, residual sugar, specific gravity, ethanol yield, absorbance, and purity —  
 to identify relationships that influence bioethanol production efficiency.
 
