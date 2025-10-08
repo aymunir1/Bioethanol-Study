@@ -1,9 +1,9 @@
 📊 **Proximate Statistical Analysis** [R Script](https://github.com/aymunir1/Bioethanol-Study/blob/main/ANOVA%20%2B%20TURKEY%20HSD.R)
 
 Performs **statistical analysis** of proximate composition —  
-including **Ash, Moisture, Fibre, Fat, Protein,** and **Carbohydrates** —  
-across **Cornsilk, Corncob,** and **Mango Blossom** substrates.
-Evaluates **nutritional potential** of substrates for **bioethanol production**.
+including **Ash, Moisture, Fibre, Fat, Protein,* and Carbohydrates*  
+across *Cornsilk, Corncob,* and *Mango Blossom* substrates.
+Evaluates substrates potential for **bioethanol production**.
 
 **Analytical Workflow**
 1️⃣ **ANOVA Test** — Determines if significant differences exist among substrates for each parameter.  
