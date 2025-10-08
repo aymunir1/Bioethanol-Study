@@ -1,3 +1,19 @@
+
+
+📊 P**roximate Statistical Analysis** [R Script]()
+
+This section performs a statistical analysis of proximate composition —
+including Ash, Moisture, Fibre, Fat, Protein, and Carbohydrates —
+across three substrates: Cornsilk, Corncob, and Mango Blossom,
+to assess their nutritional potential for bioethanol production.
+
+1️⃣ ANOVA Test — Determines if there are significant differences among substrates for each parameter.
+2️⃣ Tukey HSD Test — Identifies which substrate pairs differ significantly.
+3️⃣ Summary Statistics — Computes Mean ± SD values for each substrate.
+4️⃣ Result Formatting — Merges mean, SD, and Tukey group letters into a polished summary table.
+
+
+
 ## 🧪 Correlation Heatmap for Temperature and pH Optimization [R Script](https://github.com/aymunir1/Bioethanol-Study/blob/main/Correlation%20and%20Heatmap%20(Temperature%20%26%20pH).R)
 
 This section performs a **correlation analysis** among key fermentation variables —  
