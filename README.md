@@ -1,6 +1,6 @@
 
 
-📊 P**roximate Statistical Analysis** [R Script]()
+📊 P**roximate Statistical Analysis** [R Script](https://github.com/aymunir1/Bioethanol-Study/blob/main/ANOVA%20%2B%20TURKEY%20HSD.R)
 
 This section performs a statistical analysis of proximate composition —
 including Ash, Moisture, Fibre, Fat, Protein, and Carbohydrates —
