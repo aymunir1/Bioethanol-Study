@@ -6,24 +6,25 @@ across *Cornsilk, Corncob,* and *Mango Blossom* substrates.
 Evaluates substrates potential for **bioethanol production**.
 
 **Analytical Workflow**
-1️⃣ **ANOVA Test** — Determines if significant differences exist among substrates for each parameter.  
-2️⃣ **Tukey HSD Test** — Identifies which substrate pairs differ significantly.  
-3️⃣ **Summary Statistics** — Computes **Mean ± SD** values per substrate.  
-4️⃣ **Result Formatting** — Combines mean, SD, and Tukey group letters into a polished summary table.  
+
+1. **ANOVA Test** — Determines if significant differences exist among substrates for each parameter.  
+2. **Tukey HSD Test** — Identifies which substrate pairs differ significantly.  
+3. **Summary Statistics** — Computes **Mean ± SD** values per substrate.  
+4. **Result Formatting** — Combines mean, SD, and Tukey group letters into a polished summary table.  
 
 
+**Stress Tolerance of _Saccharomyces cerevisiae_**
 
-🧪 **Correlation Heatmap for Temperature and pH Optimization** [R Script](https://github.com/aymunir1/Bioethanol-Study/blob/main/Correlation%20and%20Heatmap%20(Temperature%20%26%20pH).R)
+This section evaluates the **stress tolerance** of *Saccharomyces cerevisiae* under various environmental and fermentation stress conditions.  
+It aims to understand how key stress factors influence yeast growth, fermentation efficiency, and ethanol yield critical parameters in bioethanol production.
 
-This section performs correlation analysis among key fermentation variables —  
-including *temperature, pH, residual sugar, specific gravity, ethanol yield, absorbance, and purity —  
-to identify relationships that influence bioethanol production efficiency.
+1. Temperature Tolerance — [R Script]() - Assesses yeast performance across different fermentation temperatures to determine optimal thermal conditions for ethanol yield.
+2. pH Tolerance — [R Script]() - Examines yeast growth and metabolic activity under varying pH levels to identify the optimal pH for efficient fermentation.
+3. Ethanol Tolerance — [R Script]() - Investigates how increasing ethanol concentrations affect yeast survival and productivity, providing insight into stress adaptation mechanisms.
 
-📊 **Studies Conducted**
+🧪 **Correlation Analysis** [R Script](https://github.com/aymunir1/Bioethanol-Study/blob/main/Correlation%20and%20Heatmap%20(Temperature%20%26%20pH).R)
+This section performs correlation analysis among key fermentation variables (*temperature, pH, residual sugar, specific gravity, ethanol yield, absorbance, and purity) to identify relationships that influence bioethanol production efficiency.
+
 1. **Temperature Study** — Examines how fermentation temperature affects ethanol yield and related process parameters.  
 2. **pH Study** — Explores how pH variation influences fermentation performance and product purity.
 
- 🎨 **Visualization**
-The correlation heatmaps apply **custom color gradients**:
-- 🟢 **Positive correlations** — Indicate strong synergistic relationships between variables.  
-- 🔴 **Negative correlations** — Highlight inverse relationships that may reduce process efficiency.
