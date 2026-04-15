@@ -96,3 +96,37 @@ ggplot(data, aes(x = Time, y = Value, fill = pH)) +
   )
 
 show()
+
+
+p <- ggplot(summary_stats, aes(x = Time, y = mean, color = pH, group = pH)) +
+  geom_line(size = 1) +
+  geom_point(size = 3) +
+  geom_errorbar(aes(ymin = mean - se, ymax = mean + se), width = 0.15) +
+  theme_minimal(base_size = 14) +
+  labs(
+    title = "Effect of pH Per Time",
+    x = "Incubation Time (hrs)",
+    y = "Absorbance (OD)"
+  ) +
+  theme(
+    plot.title = element_text(hjust = 0.5, face = "bold", size = 16),
+    
+    # 🔑 ADD THESE FOR AXES
+    axis.line = element_line(color = "black", size = 0.8),
+    axis.ticks = element_line(color = "black"),
+    
+    # Optional: remove gridlines for cleaner thesis look
+    panel.grid = element_blank()
+  ) +
+  scale_color_manual(values = c("ph4" = "red", "ph6" = "blue", "ph9" = "green"))
+
+
+
+print(p)
+
+
+ggsave("stress_pH_2_plot.tiff",
+       plot = p,
+       width = 8,
+       height = 6,
+       dpi = 600)
