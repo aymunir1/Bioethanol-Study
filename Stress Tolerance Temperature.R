@@ -90,3 +90,36 @@ p <- ggplot(data, aes(x=Time, y=Absorbance, color=Temperature, group=Temperature
 # Display the plot
 print(p)
 
+
+
+
+p <- ggplot(data, aes(x=Time, y=Absorbance, color=Temperature, group=Temperature)) +
+  stat_summary(fun=mean, geom="line", size=1.2) +
+  stat_summary(fun.data=mean_se, geom="errorbar", width=0.2) +
+  stat_summary(fun=mean, geom="point", size=3) +
+  theme_minimal() +
+  labs(title="Yeast Stress Tolerance at Different Temperatures",
+       x="Time (hours)",
+       y="Absorbance (OD)") +
+  scale_color_brewer(palette="Set1") +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 16, face="bold"),
+    axis.title = element_text(size = 14),
+    axis.text = element_text(size = 12),
+    
+    # Axis
+    axis.line = element_line(color = "black"),
+    axis.ticks = element_line(color = "black"),
+    
+    legend.title = element_text(size = 13),
+    legend.text = element_text(size = 12)
+  )
+
+print(p)
+
+
+ggsave("stress_temperature_plot.png",
+       plot = p,
+       width = 8,
+       height = 6,
+       dpi = 600)
